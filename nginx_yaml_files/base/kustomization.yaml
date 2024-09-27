@@ -1,0 +1,16 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+  - ingress.yaml
+
+commonLabels:
+  app: nginx
+
+commonAnnotations:
+  app: mykustom-annotations
+
+namePrefix:
+  kustom-
+
+nameSuffix:
+  -v1

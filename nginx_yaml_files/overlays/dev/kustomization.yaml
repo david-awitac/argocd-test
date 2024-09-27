@@ -1,0 +1,12 @@
+resources:
+- ../../base
+
+namespace: dev2
+
+patches:
+- path: ./replicas.yaml
+- path: ./ingress.yaml
+
+configMapGenerator:
+- name: mykustom-map
+  env: config.properties 
