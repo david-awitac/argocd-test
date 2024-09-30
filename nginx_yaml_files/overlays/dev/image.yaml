@@ -10,4 +10,4 @@ spec:
         image: ascomappsuite.azurecr.io/nordics/mapnextgen:latest
       envFrom:
       - configMapRef:
-        name: mykustom-map
+          name: mykustom-map
