@@ -6,5 +6,8 @@ spec:
   template:
     spec:
       containers:
-      - image: ascomappsuite.azurecr.io/nordics/mapnextgen:latest
+        envFrom:
+        - configMapRef:
+          name: mykustom-map
+        image: ascomappsuite.azurecr.io/nordics/mapnextgen:latest
         name: mapnextgen
