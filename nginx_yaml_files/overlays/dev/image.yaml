@@ -6,5 +6,5 @@ spec:
   template:
     spec:
       containers:
+      - name: mapnextgen
         image: ascomappsuite.azurecr.io/nordics/mapnextgen:latest
-        name: mapnextgen
