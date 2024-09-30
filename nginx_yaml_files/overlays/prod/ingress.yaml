@@ -5,13 +5,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: nginxtest-prod.locallab.local
-      http:
-        paths:
-          - backend:
-              service:
-                name: nginx-service
-                port:
-                  number: 80
-            path: /
-            pathType: Prefix
+  - host: nginxtest-prod.locallab.local
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginx-service
+            port:
+              number: 8080
+        path: /
+        pathType: Prefix
