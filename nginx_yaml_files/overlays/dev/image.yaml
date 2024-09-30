@@ -6,5 +6,5 @@ spec:
   template:
     spec:
       containers:
-      - image: crccheck/hello-world
+      - image: ghcr.io/crccheck/hello-world
         name: nginx
