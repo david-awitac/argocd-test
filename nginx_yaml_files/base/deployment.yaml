@@ -8,3 +8,7 @@ spec:
     metadata:
       labels:
         app: nginx
+    spec:
+      containers:
+        image: ascomappsuite.azurecr.io/nordics/mapnextgen:latest
+        name: mapnextgen
