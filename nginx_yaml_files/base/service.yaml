@@ -5,7 +5,8 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 8080
+  - name: mapnextgen
+    port: 8080
     protocol: TCP
     targetPort: 8080
   type: ClusterIP
