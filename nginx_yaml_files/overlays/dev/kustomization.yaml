@@ -6,7 +6,8 @@ namespace: dev2
 patches:
 - path: ./replicas.yaml
 - path: ./ingress.yaml
+- path: ./image.yaml
 
 configMapGenerator:
 - name: mykustom-map
-  env: config.properties 
+  env: config.properties
