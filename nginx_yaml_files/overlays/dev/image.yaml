@@ -6,5 +6,5 @@ spec:
   template:
     spec:
       containers:
-      - image: nginx:stable-alpine
+      - image: crccheck/hello-world
         name: nginx
